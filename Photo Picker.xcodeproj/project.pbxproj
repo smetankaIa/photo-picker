@@ -11,6 +11,7 @@
 		71018A142BADBA6C00CBB542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71018A132BADBA6C00CBB542 /* ContentView.swift */; };
 		71018A162BADBA6F00CBB542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71018A152BADBA6F00CBB542 /* Assets.xcassets */; };
 		71018A192BADBA6F00CBB542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71018A182BADBA6F00CBB542 /* Preview Assets.xcassets */; };
+		71018A202BADBB1F00CBB542 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71018A1F2BADBB1F00CBB542 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		71018A132BADBA6C00CBB542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71018A152BADBA6F00CBB542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71018A182BADBA6F00CBB542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71018A1F2BADBB1F00CBB542 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		71018A212BADC13100CBB542 /* Photo-Picker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Photo-Picker-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		71018A102BADBA6C00CBB542 /* Photo Picker */ = {
 			isa = PBXGroup;
 			children = (
+				71018A212BADC13100CBB542 /* Photo-Picker-Info.plist */,
 				71018A112BADBA6C00CBB542 /* Photo_PickerApp.swift */,
 				71018A132BADBA6C00CBB542 /* ContentView.swift */,
+				71018A1F2BADBB1F00CBB542 /* ImagePicker.swift */,
 				71018A152BADBA6F00CBB542 /* Assets.xcassets */,
 				71018A172BADBA6F00CBB542 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71018A202BADBB1F00CBB542 /* ImagePicker.swift in Sources */,
 				71018A142BADBA6C00CBB542 /* ContentView.swift in Sources */,
 				71018A122BADBA6C00CBB542 /* Photo_PickerApp.swift in Sources */,
 			);
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = 5RFXK7CBJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Picker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = 5RFXK7CBJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Picker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
